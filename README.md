@@ -4,6 +4,10 @@ Este projeto teve como objetivo criar um overlay para o jogo Transformice utiliz
 
 ## Funcionamento
 
+Este projeto consiste na emulação da estrutura "ByteArray" presente na linguagem de programação Action Script 3.0 (AS3):
+https://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/flash/utils/ByteArray.html
+Através disto, é possível manipular os pacotes através de hooking das rotinas "send" e "recv" presentes na "ws2_32.dll".
+
 O overlay foi desenvolvido usando técnicas de hooking, que envolve a injeção de código em tempo de execução para interceptar chamadas da API DirectX do jogo e, assim, desenhar nossa camada visual. Ao realizar o hook no DirectX, podemos acessar as funções de desenho e, dessa forma, inserir elementos gráficos na tela do jogo.
 
 ## Pré-requisitos
