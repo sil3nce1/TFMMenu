@@ -2,6 +2,8 @@
 
 Este projeto teve como objetivo criar um overlay para o jogo Transformice utilizando um hook no DirectX. O overlay é uma camada visual que é desenhada na parte superior do jogo, permitindo adicionar informações adicionais, gráficos ou interações sem modificar diretamente o código do jogo.
 
+![Gif de funcionamento](https://i.imgur.com/BDQ8iGt.gif)
+
 ## Funcionamento
 
 Este projeto consiste na emulação da estrutura "ByteArray" presente na linguagem de programação Action Script 3.0 (AS3):
