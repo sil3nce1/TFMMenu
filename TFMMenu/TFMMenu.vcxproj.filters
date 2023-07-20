@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\tfm">
+      <UniqueIdentifier>{7b6f3054-d714-42cc-8c23-ac128581fe94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tfm\handlers">
+      <UniqueIdentifier>{5219a598-d44b-400b-9a01-55bf17f65a54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tfm\menu">
+      <UniqueIdentifier>{9fac2397-52b6-473f-8519-fb4934e5d75b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tfm\kiero">
+      <UniqueIdentifier>{c55149c7-5b03-4488-a554-d157ee2aea5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\kiero">
+      <UniqueIdentifier>{1e17a1de-25a4-4ae5-b152-35e8941cb01d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tfm">
+      <UniqueIdentifier>{ad7158de-5e06-46df-89ed-ab4a80516540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tfm\menu">
+      <UniqueIdentifier>{b31d1e9d-7b24-4a6f-8afc-c87d546bbd72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\imgui">
+      <UniqueIdentifier>{62d02729-3c55-480a-ae6c-23847db9178b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\imgui">
+      <UniqueIdentifier>{5b10026f-6410-410a-8649-c2d110b2f165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\overlay">
+      <UniqueIdentifier>{f603090d-08ac-49fc-b73c-bf14dd743091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\overlay">
+      <UniqueIdentifier>{99d397c4-1c68-4a5d-95b1-7275c2206479}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="recv_handlers.cpp">
+      <Filter>Source Files\tfm\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="send_handlers.cpp">
+      <Filter>Source Files\tfm\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="handlers_main.cpp">
+      <Filter>Source Files\tfm\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="tfm.cpp">
+      <Filter>Source Files\tfm</Filter>
+    </ClCompile>
+    <ClCompile Include="tfm_network.cpp">
+      <Filter>Source Files\tfm</Filter>
+    </ClCompile>
+    <ClCompile Include="tfm_room.cpp">
+      <Filter>Source Files\tfm</Filter>
+    </ClCompile>
+    <ClCompile Include="tfmplayer.cpp">
+      <Filter>Source Files\tfm</Filter>
+    </ClCompile>
+    <ClCompile Include="tfm_hooks.cpp">
+      <Filter>Source Files\tfm</Filter>
+    </ClCompile>
+    <ClCompile Include="tfm_object.cpp">
+      <Filter>Source Files\tfm</Filter>
+    </ClCompile>
+    <ClCompile Include="tfm_me.cpp">
+      <Filter>Source Files\tfm</Filter>
+    </ClCompile>
+    <ClCompile Include="tfm_variables.cpp">
+      <Filter>Source Files\tfm</Filter>
+    </ClCompile>
+    <ClCompile Include="tfm_xml_reader.cpp">
+      <Filter>Source Files\tfm</Filter>
+    </ClCompile>
+    <ClCompile Include="kiero.cpp">
+      <Filter>Source Files\tfm\kiero</Filter>
+    </ClCompile>
+    <ClCompile Include="bytearray.cpp">
+      <Filter>Source Files\tfm</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_main.cpp">
+      <Filter>Source Files\tfm\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx9.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx11.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DOverlay.cpp">
+      <Filter>Source Files\overlay</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hook.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kiero.h">
+      <Filter>Header Files\kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="tfm.hpp">
+      <Filter>Header Files\tfm</Filter>
+    </ClInclude>
+    <ClInclude Include="bytearray.hpp">
+      <Filter>Header Files\tfm</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx9.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DOverlay.h">
+      <Filter>Header Files\overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
